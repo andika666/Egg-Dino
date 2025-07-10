@@ -1,9 +1,6 @@
 {
-  "cleanUrls": true,
   "rewrites": [
-    {
-      "source": "/api/hatch",
-      "destination": "/api/hatch.js"
-    }
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/og", "destination": "/og.html" }
   ]
 }
